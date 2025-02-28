@@ -207,7 +207,9 @@
         "storage.type.interface.php",
         "keyword.other.clone.php",
         "keyword.operator.comparison.php",
-        "entity.name.tag.yaml"
+        "entity.name.tag.yaml",
+        "variable.language.dart",
+        "storage.modifier.dart"
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -252,7 +254,8 @@
       "scope": [
         "comment.line.double-slash.php",
         "punctuation.definition.comment.php",
-        "comment.block.documentation.phpdoc.php"
+        "comment.block.documentation.phpdoc.php",
+        "comment.line.double-slash.dart"
       ],
       "settings": {
         "foreground": "#7A7E85"
@@ -319,6 +322,14 @@
       ],
       "settings": {
         "foreground": "#B3AE60"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.dart"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
       }
     }
   ]
