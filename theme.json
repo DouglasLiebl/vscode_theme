@@ -165,7 +165,8 @@
     "editorIndentGuide.background5": "#313438",
     "editorIndentGuide.background6": "#313438",
     "gitDecoration.modifiedResourceForeground": "#56A8F5",
-    "gitDecoration.addedResourceForeground": "#6AAB73"
+    "gitDecoration.addedResourceForeground": "#6AAB73",
+    "dart.closingLabels": "#7A7E85"
   },
   "tokenColors": [
     {
@@ -306,7 +307,12 @@
         "keyword.operator.string.php",
         "keyword.operator.ternary.php",
         "support.constant.core.php",
-        "variable.other.property.php"
+        "variable.other.property.php",
+        "keyword.operator.arithmetic.elixir",
+        "keyword.operator.assignment.elixir",
+        "keyword.operator.other.elixir",
+        "keyword.operator.comparison.elixir",
+        "variable.other.constant.elixir"
       ],
       "settings": {
         "foreground": "#BCBEC4"
@@ -318,18 +324,25 @@
         "storage.type.annotation.dart",
         "meta.declaration.annotation",
         "meta.declaration.annotation.dart",
-        "keyword.other.phpdoc.php"
+        "keyword.other.phpdoc.php",
+        "punctuation.definition.variable.elixir",
+        "variable.other.readwrite.module.elixir"
       ],
       "settings": {
         "foreground": "#B3AE60"
       }
     },
     {
-      "scope": [
-        "entity.name.function.dart"
-      ],
+      "scope": ["entity.name.function.dart"],
       "settings": {
         "foreground": "#56A8F5"
+      }
+    },
+    {
+      "scope": ["meta.embedded.expression.dart"],
+      "settings": {
+        "foreground": "#BCBEC4",
+        "fontStyle": "italic"
       }
     }
   ]
