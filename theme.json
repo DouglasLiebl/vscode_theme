@@ -170,7 +170,11 @@
   },
   "tokenColors": [
     {
-      "scope": ["constant.other.php", "constant.other.class.php"],
+      "scope": [
+        "constant.other.php",
+        "constant.other.class.php",
+        "entity.other.attribute-name.namespace.xml"
+      ],
       "settings": {
         "foreground": "#C77DBB",
         "fontStyle": "italic"
@@ -256,7 +260,11 @@
         "comment.line.double-slash.php",
         "punctuation.definition.comment.php",
         "comment.block.documentation.phpdoc.php",
-        "comment.line.double-slash.dart"
+        "comment.line.double-slash.dart",
+        "punctuation.definition.comment.xml",
+        "comment.block.xml",
+        "punctuation.definition.comment.yaml",
+        "comment.line.number-sign.yaml"
       ],
       "settings": {
         "foreground": "#7A7E85"
@@ -312,7 +320,8 @@
         "keyword.operator.assignment.elixir",
         "keyword.operator.other.elixir",
         "keyword.operator.comparison.elixir",
-        "variable.other.constant.elixir"
+        "variable.other.constant.elixir",
+        "string.unquoted.plain.out.yaml"
       ],
       "settings": {
         "foreground": "#BCBEC4"
@@ -343,6 +352,15 @@
       "settings": {
         "foreground": "#BCBEC4",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag.xml",
+        "entity.name.tag.localname.xml"
+      ],
+      "settings": {
+        "foreground": "#D5B778"
       }
     }
   ]
