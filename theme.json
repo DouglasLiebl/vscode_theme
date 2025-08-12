@@ -173,7 +173,14 @@
       "scope": [
         "constant.other.php",
         "constant.other.class.php",
-        "entity.other.attribute-name.namespace.xml"
+        "entity.other.attribute-name.namespace.xml",
+        "variable.language.special.self.python",
+        "constant.language.python",
+        "constant.other.caps.python",
+        "variable.other.constant.property.ts",
+        "punctuation.definition.constant.elixir",
+        "constant.language.symbol.elixir",
+        "variable.other.constant.go"
       ],
       "settings": {
         "foreground": "#C77DBB",
@@ -214,7 +221,13 @@
         "keyword.operator.comparison.php",
         "entity.name.tag.yaml",
         "variable.language.dart",
-        "storage.modifier.dart"
+        "storage.modifier.dart",
+        "storage.type.class.python",
+        "storage.type.function.python",
+        "constant.language.dart",
+        "storage.type.function.async.python",
+        "storage.type.tsx",
+        "storage.type.ts"
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -231,9 +244,25 @@
       }
     },
     {
-      "scope": ["entity.name.function.php"],
+      "scope": [
+        "entity.name.function.php",
+        "entity.name.function.python",
+        "entity.name.function.dart",
+        "entity.name.function.tsx",
+        "entity.name.function.go"
+      ],
       "settings": {
         "foreground": "#56A8F5"
+      }
+    },
+    {
+      "scope": [
+        "support.function.builtin.python",
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#56A8F5",
+        "fontStyle": "italic"
       }
     },
     {
@@ -264,7 +293,17 @@
         "punctuation.definition.comment.xml",
         "comment.block.xml",
         "punctuation.definition.comment.yaml",
-        "comment.line.number-sign.yaml"
+        "comment.line.number-sign.yaml",
+        "comment.line.number-sign.python",
+        "punctuation.definition.comment.python",
+        "punctuation.definition.comment.tsx",
+        "comment.line.double-slash.tsx",
+        "punctuation.definition.comment.ts",
+        "comment.line.double-slash.ts",
+        "comment.documentation.heredoc.elixir",
+        "comment.block.documentation.dart",
+        "comment.line.double-slash.go",
+        "punctuation.definition.comment.go"
       ],
       "settings": {
         "foreground": "#7A7E85"
@@ -321,7 +360,39 @@
         "keyword.operator.other.elixir",
         "keyword.operator.comparison.elixir",
         "variable.other.constant.elixir",
-        "string.unquoted.plain.out.yaml"
+        "string.unquoted.plain.out.yaml",
+        "variable.parameter.function.language.python",
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function-call.python",
+        "keyword.operator.closure.dart",
+        "keyword.operator.assignment.dart",
+        "keyword.operator.ternary.dart",
+        "keyword.operator.arithmetic.dart",
+        "keyword.operator.comparison.dart",
+        "keyword.operator.logical.dart",
+        "variable.other.readwrite.alias.tsx",
+        "variable.other.constant.tsx",
+        "storage.type.function.tsx",
+        "entity.other.attribute-name.tsx",
+        "keyword.operator.assignment.tsx",
+        "keyword.operator.type.annotation.tsx",
+        "keyword.operator.arithmetic.tsx",
+        "keyword.operator.spread.tsx",
+        "keyword.operator.logical.tsx",
+        "variable.other.property.tsx",
+        "variable.other.object.tsx",
+        "variable.other.object.tsx",
+        "variable.other.constant.ts",
+        "variable.other.readwrite.ts",
+        "variable.parameter.tsx",
+        "variable.other.readwrite.tsx",
+        "variable.other.readwrite.alias.ts",
+        "variable.other.object.ts",
+        "variable.other.object.property.ts",
+        "variable.parameter.go",
+        "variable.other.go",
+        "keyword.operator.arithmetic.go",
+        "keyword.operator.assignment.go"
       ],
       "settings": {
         "foreground": "#BCBEC4"
@@ -335,7 +406,13 @@
         "meta.declaration.annotation.dart",
         "keyword.other.phpdoc.php",
         "punctuation.definition.variable.elixir",
-        "variable.other.readwrite.module.elixir"
+        "variable.other.readwrite.module.elixir",
+        "punctuation.definition.decorator.python",
+        "support.type.python",
+        "punctuation.separator.period.python",
+        "entity.name.function.decorator.python",
+        "entity.other.attribute-name.tsx",
+        "entity.name.type.package.go"
       ],
       "settings": {
         "foreground": "#B3AE60"
@@ -361,6 +438,24 @@
       ],
       "settings": {
         "foreground": "#D5B778"
+      }
+    },
+    {
+      "scope": [
+        "support.class.component.tsx"
+      ],
+      "settings": {
+        "foreground": "#c0caf5"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.string.go",
+        "storage.type.numeric.go",
+        "entity.name.function.support.builtin.go"
+      ],
+      "settings": {
+        "foreground": "#CC7832"
       }
     }
   ]
