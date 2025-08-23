@@ -180,11 +180,20 @@
         "variable.other.constant.property.ts",
         "punctuation.definition.constant.elixir",
         "constant.language.symbol.elixir",
-        "variable.other.constant.go"
+        "variable.other.constant.go",
+        "constant.language.boolean.true.ts"
       ],
       "settings": {
         "foreground": "#C77DBB",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "variable.object.property.ts"
+      ],
+      "settings": {
+        "foreground": "#C77DBB"
       }
     },
     {
@@ -227,7 +236,11 @@
         "constant.language.dart",
         "storage.type.function.async.python",
         "storage.type.tsx",
-        "storage.type.ts"
+        "storage.type.ts",
+        "storage.type.class.ts",
+        "variable.language.this.ts",
+        "storage.modifier.async.ts",
+        "storage.type.function.ts"
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -392,7 +405,13 @@
         "variable.parameter.go",
         "variable.other.go",
         "keyword.operator.arithmetic.go",
-        "keyword.operator.assignment.go"
+        "keyword.operator.assignment.go",
+        "keyword.operator.type.annotation.ts",
+        "variable.parameter.ts",
+        "variable.other.property.ts",
+        "keyword.operator.assignment.ts",
+        "keyword.operator.type.ts",
+        "keyword.operator.comparison.ts"
       ],
       "settings": {
         "foreground": "#BCBEC4"
@@ -412,7 +431,9 @@
         "punctuation.separator.period.python",
         "entity.name.function.decorator.python",
         "entity.other.attribute-name.tsx",
-        "entity.name.type.package.go"
+        "entity.name.type.package.go",
+        "punctuation.decorator.ts",
+        "entity.name.function.ts"
       ],
       "settings": {
         "foreground": "#B3AE60"
