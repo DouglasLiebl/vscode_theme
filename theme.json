@@ -181,7 +181,8 @@
         "punctuation.definition.constant.elixir",
         "constant.language.symbol.elixir",
         "variable.other.constant.go",
-        "constant.language.boolean.true.ts"
+        "constant.language.boolean.true.ts",
+        "constant.language.elixir"
       ],
       "settings": {
         "foreground": "#C77DBB",
@@ -240,7 +241,8 @@
         "storage.type.class.ts",
         "variable.language.this.ts",
         "storage.modifier.async.ts",
-        "storage.type.function.ts"
+        "storage.type.function.ts",
+        "keyword.control.elixir"
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -262,7 +264,8 @@
         "entity.name.function.python",
         "entity.name.function.dart",
         "entity.name.function.tsx",
-        "entity.name.function.go"
+        "entity.name.function.go",
+        "entity.name.function.elixir"
       ],
       "settings": {
         "foreground": "#56A8F5"
@@ -313,10 +316,11 @@
         "comment.line.double-slash.tsx",
         "punctuation.definition.comment.ts",
         "comment.line.double-slash.ts",
-        "comment.documentation.heredoc.elixir",
         "comment.block.documentation.dart",
         "comment.line.double-slash.go",
-        "punctuation.definition.comment.go"
+        "punctuation.definition.comment.go",
+        "punctuation.definition.comment.elixir",
+        "comment.line.number-sign.elixir"
       ],
       "settings": {
         "foreground": "#7A7E85"
@@ -370,9 +374,7 @@
         "variable.other.property.php",
         "keyword.operator.arithmetic.elixir",
         "keyword.operator.assignment.elixir",
-        "keyword.operator.other.elixir",
         "keyword.operator.comparison.elixir",
-        "variable.other.constant.elixir",
         "string.unquoted.plain.out.yaml",
         "variable.parameter.function.language.python",
         "variable.parameter.function.language.special.self.python",
@@ -411,7 +413,14 @@
         "variable.other.property.ts",
         "keyword.operator.assignment.ts",
         "keyword.operator.type.ts",
-        "keyword.operator.comparison.ts"
+        "keyword.operator.comparison.ts",
+        "keyword.operator.logical.ts",
+        "variable.other.assignment.go",
+        "keyword.operator.comparison.go",
+        "variable.other.property.go",
+        "keyword.operator.address.go",
+        "variable.other.readwrite.elixir",
+        "keyword.operator.logical.elixir"
       ],
       "settings": {
         "foreground": "#BCBEC4"
@@ -433,7 +442,10 @@
         "entity.other.attribute-name.tsx",
         "entity.name.type.package.go",
         "punctuation.decorator.ts",
-        "entity.name.function.ts"
+        "entity.name.function.ts",
+        "entity.name.function.support.go",
+        "variable.other.readwrite.module.elixir",
+        "variable.other.constant.elixir"
       ],
       "settings": {
         "foreground": "#B3AE60"
@@ -473,10 +485,44 @@
       "scope": [
         "storage.type.string.go",
         "storage.type.numeric.go",
-        "entity.name.function.support.builtin.go"
+        "entity.name.function.support.builtin.go",
+        "constant.language.null.go"
       ],
       "settings": {
         "foreground": "#CC7832"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.go"
+      ],
+      "settings": {
+        "foreground": "#6FAFBD"
+      }
+    },
+    {
+      "scope": [
+        "comment.documentation.heredoc.elixir"
+      ],
+      "settings": {
+        "foreground": "#5F826B"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function-call.elixir",
+        "entity.name.function.call.local.elixir",
+        "entity.name.function.call.dot.elixir"
+      ],
+      "settings": {
+        "foreground": "#6FAFBD",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword.operator.other.elixir"],
+      "settings": {
+        "foreground": "#8a4ae0"
       }
     }
   ]
