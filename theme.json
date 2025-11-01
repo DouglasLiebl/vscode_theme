@@ -238,11 +238,20 @@
         "storage.type.function.async.python",
         "storage.type.tsx",
         "storage.type.ts",
+        "storage.type.js",
         "storage.type.class.ts",
+        "storage.type.class.js",
         "variable.language.this.ts",
+        "variable.language.this.js",
         "storage.modifier.async.ts",
+        "storage.modifier.async.js",
         "storage.type.function.ts",
-        "keyword.control.elixir"
+        "storage.type.function.js",
+        "keyword.control.elixir",
+        "storage.modifier.ts",
+        "storage.modifier.js",
+        "storage.type.namespace.ts",
+        "storage.type.namespace.js"
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -265,7 +274,9 @@
         "entity.name.function.dart",
         "entity.name.function.tsx",
         "entity.name.function.go",
-        "entity.name.function.elixir"
+        "entity.name.function.elixir",
+        "entity.name.function.js",
+        "entity.name.function.ts"
       ],
       "settings": {
         "foreground": "#56A8F5"
@@ -398,23 +409,35 @@
         "variable.other.object.tsx",
         "variable.other.object.tsx",
         "variable.other.constant.ts",
+        "variable.other.constant.js",
         "variable.other.readwrite.ts",
+        "variable.other.readwrite.js",
         "variable.parameter.tsx",
         "variable.other.readwrite.tsx",
         "variable.other.readwrite.alias.ts",
+        "variable.other.readwrite.alias.js",
         "variable.other.object.ts",
+        "variable.other.object.js",
         "variable.other.object.property.ts",
+        "variable.other.object.property.js",
         "variable.parameter.go",
         "variable.other.go",
         "keyword.operator.arithmetic.go",
         "keyword.operator.assignment.go",
         "keyword.operator.type.annotation.ts",
+        "keyword.operator.type.annotation.js",
         "variable.parameter.ts",
+        "variable.parameter.js",
         "variable.other.property.ts",
+        "variable.other.property.js",
         "keyword.operator.assignment.ts",
+        "keyword.operator.assignment.js",
         "keyword.operator.type.ts",
+        "keyword.operator.type.js",
         "keyword.operator.comparison.ts",
+        "keyword.operator.comparison.js",
         "keyword.operator.logical.ts",
+        "keyword.operator.logical.js",
         "variable.other.assignment.go",
         "keyword.operator.comparison.go",
         "variable.other.property.go",
@@ -523,6 +546,35 @@
       "scope": ["keyword.operator.other.elixir"],
       "settings": {
         "foreground": "#8a4ae0"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.svelte"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.svelte",
+        "punctuation.definition.tag.end.svelte"
+      ],
+      "settings": {
+        "foreground": "#F75464"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.svelte",
+        "entity.name.tag.html"
+      ],
+      "settings": {
+        "foreground": "#2AACB8"
       }
     }
   ]
