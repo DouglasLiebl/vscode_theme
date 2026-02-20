@@ -182,7 +182,8 @@
         "constant.language.symbol.elixir",
         "variable.other.constant.go",
         "constant.language.boolean.true.ts",
-        "constant.language.elixir"
+        "constant.language.elixir",
+        "constant.language.c"
       ],
       "settings": {
         "foreground": "#C77DBB",
@@ -251,7 +252,9 @@
         "storage.modifier.ts",
         "storage.modifier.js",
         "storage.type.namespace.ts",
-        "storage.type.namespace.js"
+        "storage.type.namespace.js",
+        "storage.type.built-in.primitive.c",
+        "variable.key.dotenv"
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -331,7 +334,15 @@
         "comment.line.double-slash.go",
         "punctuation.definition.comment.go",
         "punctuation.definition.comment.elixir",
-        "comment.line.number-sign.elixir"
+        "comment.line.number-sign.elixir",
+        "punctuation.definition.comment.c",
+        "comment.line.double-slash.c",
+        "punctuation.definition.comment.begin.c",
+        "punctuation.definition.comment.end.c",
+        "comment.block.c",
+        "comment.line.dotenv",
+        "comment.line.number-sign.dockerfile",
+        "punctuation.definition.comment.dockerfile"
       ],
       "settings": {
         "foreground": "#7A7E85"
@@ -443,7 +454,11 @@
         "variable.other.property.go",
         "keyword.operator.address.go",
         "variable.other.readwrite.elixir",
-        "keyword.operator.logical.elixir"
+        "keyword.operator.logical.elixir",
+        "keyword.operator.assignment.c",
+        "keyword.operator.c",
+        "variable.parameter.probably.c",
+        "keyword.operator.assignment.dotenv"
       ],
       "settings": {
         "foreground": "#BCBEC4"
@@ -475,7 +490,7 @@
       }
     },
     {
-      "scope": ["entity.name.function.dart"],
+      "scope": ["entity.name.function.dart", "entity.name.function.c"],
       "settings": {
         "foreground": "#56A8F5"
       }
