@@ -1,0 +1,22 @@
+{
+  "name": "jetbrains-like-theme",
+  "displayName": "jetbrains_like_theme",
+  "description": "Nothing there",
+  "publisher": "DouglasLiebl",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JetBrains Like Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JetBrains Like Theme-color-theme.json"
+      }
+    ]
+  }
+}

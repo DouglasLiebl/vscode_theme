@@ -310,8 +310,7 @@
         "string.quoted.double.php"
       ],
       "settings": {
-        "foreground": "#6AAB73",
-        "fontStyle": "regular"
+        "foreground": "#6AAB73"
       }
     },
     {
